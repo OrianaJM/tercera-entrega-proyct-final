@@ -1,0 +1,38 @@
+// Portada hombre - mujer
+main {
+    background-color: $colorbg;
+}
+
+.contenedor-portada {
+    &__titulo {
+        color: $color-uno;
+    }
+}
+
+
+// seccion quienes somos
+
+.sobre-red__titulo {
+        color: $color-uno;
+}
+
+// formulario para mail
+
+.unirse-red {
+    &__titulo {
+        color: $color-uno;
+    }
+    &__sub {
+        color: $color-dos;
+    }
+}
+
+// opiniones
+
+.seccion-opiniones__titulo {
+    color: $color-uno;
+}
+
+.opiniones-sub {
+    color: $color-dos;
+}

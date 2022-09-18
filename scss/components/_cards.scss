@@ -1,0 +1,27 @@
+/* lo nuevo */
+.contenedor-productos {
+    background-color: $colorbg;
+    &__titulo {
+        color: $color-uno;
+    }
+    
+}
+
+.card-title{
+    color: $color-dos;
+
+}
+.card-text {
+    color: $color-tres;
+    &_precio {
+        color: $color-cuatro;
+    }
+}
+h1 {
+    font: $font-family;
+}
+
+
+
+// card opiniones
+

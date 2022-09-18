@@ -1,0 +1,33 @@
+@mixin movil-lg {
+    @media (min-width: 576px){
+        @content
+    }
+}
+
+@mixin tablet {
+    @media (min-width: 768px){
+        @content
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 1200px){
+        @content
+    }
+}
+
+.card {
+    display: flex;
+    @include movil-lg {
+        min-width: 730px;
+        max-width: 850px;
+    }
+    @include tablet {
+        min-width: 530px;
+        max-width: 650px;
+    }
+    @include desktop {
+        min-width: 330px;
+        max-width: 450px;
+    }
+}
