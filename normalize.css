@@ -30,22 +30,10 @@ p {
     background: black;
 }
 
-.contmain__titulo {
-    color: wheat;
-}
 
 /* slider de tarjetas */
 .contenedor-productos {
     background-color: black;
-}
-
-.contenedor-productos__titulo {
-    color: wheat;
-}
-
-.tarjeta-titulo{
-    color: wheat;
-
 }
 
 /* seccion quienes somos */
@@ -53,26 +41,16 @@ p {
     background-color: black;
 }
 
-.sobre-red__titulo {
-    color: wheat;
-}
 
 /* formulario para mail */
 .unirse-red {
     background-color: black;
 }
 
-.unirse-red__titulo {
-    color: wheat;
-}
 
 /* opiniones */
 #seccion-opiniones {
     background-color: black;
-}
-
-.seccion-opiniones__titulo {
-    color: wheat;
 }
 
 
@@ -83,23 +61,11 @@ p {
 
 .contfooter a {
     text-decoration: none;
-    color: white;
 }
 
-.contfooter a:hover {
-    color: wheat;
-}
-
-.contacto__titulo{
-    color: wheat;
-}
 
 .cajaContacto {
     font-size: 15px;
-}
-
-.contfooter .derechos {
-    color: wheat;
 }
 
 
@@ -110,9 +76,6 @@ p {
     background-color: black;
 }
 
-.cards-man h5, h4{
-    color: wheat;
-}
 
 
 /* Seccion mujer */
