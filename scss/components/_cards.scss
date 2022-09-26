@@ -25,3 +25,9 @@ h1 {
 
 // card opiniones
 
+.opiniones {
+    &card-title {
+        &card-text
+            color:$color-seis;
+    }
+}
