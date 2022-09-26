@@ -1,6 +1,12 @@
 @charset "UTF-8";
 /* lo nuevo */
 @import url("https://fonts.googleapis.com/css2?family=Anybody:wght@100;200&family=Dongle:wght@300&family=Fauna+One&display=swap");
+* {
+  font-family: 'Anybody', cursive;
+  font-family: 'Dongle', sans-serif;
+  font-family: 'Fauna One', serif;
+  box-sizing: border-box;
+}
 .contenedor-productos {
   background-color: black;
 }
@@ -21,6 +27,10 @@
 
 h1, .h1 {
   font: "Anybody", "cursive", "Dongle", sans-serif, "Fauna One", serif;
+}
+
+.opiniones .card-title {
+  color: rgb(245, 124, 115);
 }
 
 /* Encabezado, barra de navegación: Logo de la pag */
